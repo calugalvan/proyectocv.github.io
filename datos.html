@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,100,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Curriculum Vitae</h1>
+        <div class="user-photo">
+         <a href="index.html">
+            <img src="https://randomuser.me/api/portraits/women/43.jpg">
+         </a>
+        </div>
+     </div>
+     <ul class="sidenav">
+        <li class="active">
+           <span class="material-symbols-outlined sidenav-icon">person</span>
+           <a href="datos.html">Datos Personales</a>
+        </li>
+  
+        <li>
+           <span class="material-symbols-outlined sidenav-icon">work</span>
+           <a href="experiencia.html">Experiencia Laboral</a>
+        </li>
+  
+        <li>
+           <span class="material-symbols-outlined sidenav-icon">school</span>
+           <a href="estudios.html">Formación Académica</a>
+        </li>
+  
+        <li>
+           <span class="material-symbols-outlined sidenav-icon">cognition</span>
+           <a href="habilidades.html">Habilidades</a>
+        </li>
+        <li>
+           <span class="material-symbols-outlined sidenav-icon">contact_mail</span>
+           <a href="contacto.html">Contacto</a>
+        </li>
+     </ul>
+
+     <div class="information">
+        <ul class="info">
+            <li>
+               <button class="btn" id="btn-name"><span class="material-symbols-outlined perfil-icon">badge</span></button>
+                Carolyn Caldwell
+             </li>
+            <li>
+               <button class="btn" id="btn-birthday"><span class="material-symbols-outlined perfil-icon">cake</span></button>
+                05/04/1973
+            </li>
+            <li>
+               <button class="btn" id="btn-address"><span class="material-symbols-outlined perfil-icon">home_pin</span></button>
+                8366 Homestead Rd
+            </li>
+        </ul>
+      <div class="text-info">
+         <span id="text"></span>
+      </div>
+     </div>
+     <script type="text/javascript" src="./functions.js"></script>
+</body>
+    
+</html>
